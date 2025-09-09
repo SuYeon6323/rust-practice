@@ -137,6 +137,26 @@
         }
         ```
 
+        ```rust
+        fn main(){
+            print!("This\nis\wendy\n") ;
+            print(r#"c:\thisdrive\new_drive"#);  //raw text
+            print!(
+            "SUNKISS
+            웬디솔로3집
+            9월10일") ;
+            
+            let my_variable= 9000 ;
+            println!("{:X}", my_variable) ;
+            //{:X} = 정수를 16진수로 출력하라 (대문자로, {:x}는 소문자로)
+
+            let my_variable= 14 ;
+            println!("{:b}", my_variable) ;
+            //{:b}= 2진수로 출력
+            //u8 = 부호가 없는 8비트 정수 타입
+
+        }
+
     7. empty tuple
         ```rust
         // () - empty tuple,unit type(void)
